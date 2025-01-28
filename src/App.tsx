@@ -1,11 +1,9 @@
-
 function App() {
   return (
-    <div>
-      <h1 className="text-4xl">message</h1>
-      
+    <div className="bg-sky-500">
+      <h1 className="text-4xl text-red-400 p-4">message</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
