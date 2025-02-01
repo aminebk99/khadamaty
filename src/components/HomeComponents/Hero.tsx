@@ -1,19 +1,36 @@
-
 function Hero() {
-  return (
-    <div className="px-20 my-20 bg-green-700 h-[430px] flex flex-col justify-center items-center">
-      <h2 className="text-2xl font-bold text-white">
-        Trouvez l'artisan qu'il vous faut, en toute confiance et en quelques
-        clics !
-      </h2>
-      <input 
-      className="outline-none pl-4 w-4xl m-6 bg-white h-[55px] rounded-xl"
-      type="search" placeholder="Recherchez un service..."/>
-      <button className="p-2 rounded shadow bg-emerald-100">
-      <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentFill"><path d="m15.89 14.653-3.793-3.794a.37.37 0 0 0-.266-.109h-.412A6.499 6.499 0 0 0 6.5 0C2.91 0 0 2.91 0 6.5a6.499 6.499 0 0 0 10.75 4.919v.412c0 .1.04.194.11.266l3.793 3.794a.375.375 0 0 0 .531 0l.707-.707a.375.375 0 0 0 0-.53ZM6.5 11.5c-2.763 0-5-2.238-5-5 0-2.763 2.237-5 5-5 2.762 0 5 2.237 5 5 0 2.762-2.238 5-5 5Z"></path></svg>
-      </button>
-    </div>
-  );
-}
-
-export default Hero;
+    return (
+      <div className="px-20 my-10">
+        <div className="rounded-2xl bg-green-700 h-[430px] flex flex-col justify-center items-center">
+          <div className="w-2xl flex flex-col items-center">
+            <h2 className="text-2xl font-bold text-white text-center">
+              Trouvez l'artisan qu'il vous faut, en toute confiance et en quelques
+              clics !
+            </h2>
+            <div className="relative w-full max-w-xl mt-6">
+              <input
+              autoComplete="off"
+                className="outline-none pl-4 pr-12 w-full bg-white h-[55px] rounded-xl"
+                type="search"
+                placeholder="Recherchez un service..."
+              />
+              <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded bg-emerald-100 shadow">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentFill"
+                >
+                  <path d="m15.89 14.653-3.793-3.794a.37.37 0 0 0-.266-.109h-.412A6.499 6.499 0 0 0 6.5 0C2.91 0 0 2.91 0 6.5a6.499 6.499 0 0 0 10.75 4.919v.412c0 .1.04.194.11.266l3.793 3.794a.375.375 0 0 0 .531 0l.707-.707a.375.375 0 0 0 0-.53ZM6.5 11.5c-2.763 0-5-2.238-5-5 0-2.763 2.237-5 5-5 2.762 0 5 2.237 5 5 0 2.762-2.238 5-5 5Z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
+  export default Hero;
+  

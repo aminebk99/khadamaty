@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="text-white w-full flex justify-between items-center px-20 py-4 bg-green-800">
+    <header className="shadow text-black w-full flex justify-between items-center px-20 py-4 ">
       <div>
         {/* <img src={logo} alt="" /> */}
         Logo
