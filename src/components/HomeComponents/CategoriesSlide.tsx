@@ -32,6 +32,7 @@ function CategoriesSlide() {
           {visibleCategories.map((cat) => (
             <div className="p-2 shadow flex justify-center items-center" key={cat.id}>
               <h2 className="font-semibold">{cat.name}</h2>
+              {cat.icon}
             </div>
           ))}
         </div>
