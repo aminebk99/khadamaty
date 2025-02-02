@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="px-20 my-10">
+    <div className="mdpx-20 sm:px-10 my-10">
       <div className="rounded-2xl bg-[#146551] h-[430px] flex flex-col justify-center items-center">
         <div className="w-2xl flex flex-col items-center">
           <h2 className="text-2xl font-bold text-white text-center">

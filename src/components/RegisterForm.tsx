@@ -4,11 +4,11 @@ function RegisterForm() {
   return (
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-        <img
+        {/* <img
           alt="Your Company"
           src="https://tailwindui.com/plus/img/logos/mark.svg?color=%23146551&shade=600"
           className="mx-auto h-10 w-auto"
-        />
+        /> */}
         <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-[#146551]">
           Créez votre compte
         </h2>
@@ -53,12 +53,12 @@ function RegisterForm() {
 
           <div>
             <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">
-              E-mail ou numéro de téléphone
+              E-mail 
             </label>
             <div className="mt-2">
               <input
                 id="email"
-                placeholder="E-mail ou numéro de téléphone"
+                placeholder="E-mail"
                 name="email"
                 type="email"
                 required
